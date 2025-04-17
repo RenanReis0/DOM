@@ -2,7 +2,7 @@ const container = document.querySelector("#container");
 
 const content = document.createElement("div");
 content.classList.add("content");
-content.textContent = "This is the glorious text-content!";
+content.textContent = "This ijfajfhuafant!";
 
 container.appendChild(content);
 
@@ -31,3 +31,11 @@ div.appendChild(h1)
 const paragrafo2 = document.createElement("p")
 paragrafo2.textContent = "ME TOO!"
 div.appendChild(paragrafo2)
+
+const btn = document.getElementById("btn")
+
+function alertFunction(){
+    alert("OIII")
+}
+
+btn.addEventListener("click", alertFunction)
